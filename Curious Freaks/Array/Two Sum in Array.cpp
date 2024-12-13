@@ -27,3 +27,18 @@ class Solution {
         return false;
     }
 };
+ 
+/*
+Also;
+
+for(int i=0; i<n-1;i++)
+{
+    for(int j=i+1; j<n;j++)
+    {
+        int temp = arr[i] + arr[j];
+        if(temp == target)
+            return true;
+    }
+}
+return false;
+*/
