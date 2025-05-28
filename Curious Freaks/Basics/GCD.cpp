@@ -1,15 +1,17 @@
 /*GCD*/
-//Optimised Code
-class Solution {
-  public:
-    int gcd(int a, int b) {
-        int temp = min(a,b);
-        
-        while(b!=0)
+// Optimised Code
+class Solution
+{
+public:
+    int gcd(int a, int b)
+    {
+        int temp = min(a, b); // assignment seems to be optional
+
+        while (b != 0)
         {
-            temp=b;
-            b=a%b;
-            a=temp;
+            temp = b;
+            b = a % b;
+            a = temp;
         }
         return a;
     }
@@ -30,5 +32,11 @@ int gcd(int a, int b)
         temp--;
     }
     return temp;
+}
+
+
+int gcd(int a, int b)
+{
+    return b == 0 ? a : gcd(b, a % b);
 }
 */
