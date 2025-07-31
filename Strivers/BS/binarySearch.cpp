@@ -1,3 +1,5 @@
+// Time Complexity - Average Case: O(log n), Best Case: O(1)
+
 class Solution {
 public:
     int bs(vector<int>& nums, int target, int left, int right)
