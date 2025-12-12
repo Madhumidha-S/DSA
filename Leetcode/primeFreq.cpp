@@ -1,4 +1,4 @@
-// Check if Any Element Has Prime Frequency
+// 3591. Check if Any Element Has Prime Frequency
 class Solution
 {
 public:

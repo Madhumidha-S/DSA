@@ -1,4 +1,4 @@
-// Partition Array into Two Equal Product Subsets
+// 3566. Partition Array into Two Equal Product Subsets
 
 /*
 Passes only 475/710 testcases

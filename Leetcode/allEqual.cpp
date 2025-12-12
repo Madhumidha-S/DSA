@@ -1,4 +1,4 @@
-// Transform Array to All Equal Elements
+// 3576. Transform Array to All Equal Elements
 /*
 497/607 testcases passed
 
